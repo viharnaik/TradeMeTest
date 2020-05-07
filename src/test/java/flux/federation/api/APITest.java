@@ -45,6 +45,7 @@ public class APITest extends TestNGCitrusTestDesigner {
                 validate("$.TotalCount", 2).
                 extractFromPayload("$.TotalCount", "${UsedCar}");
 
+//      Print in console for number of used cards
         echo("#####" + " ${UsedCar}" + " used cars are available in the TradeMe UsedCars Category" + "#####");
 
     }
@@ -72,6 +73,7 @@ public class APITest extends TestNGCitrusTestDesigner {
                 validate("$.TotalCount", "@greaterThan('0')@").
                 extractFromPayload("$.TotalCount", "${KiaCount}");
 
+//      Print in console if KIA branded car exists.
         echo("#####" + " ${KiaCount}" + " Kia car is available in the TradeMe UsedCars Category" + "#####");
 
     }
@@ -99,6 +101,7 @@ public class APITest extends TestNGCitrusTestDesigner {
                 status(OK).
                 validate("$.TotalCount", "0");
 
+//     Verified none of the Hispano Suiza branded car available.
         echo("#####" +" 'HispanoSuiza' brand does not exist in the TradeMe UsedCars Category" + "#####");
 
     }
