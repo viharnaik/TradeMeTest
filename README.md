@@ -8,7 +8,7 @@ This repository was created by Vihar Naik for technical test purpose only.
 
 ### How to run tests? ###
 
-* Simple 'gradlew test' will run all the tests and generate the test report in $ProjectFolder/test-output/citrus-reports
+* Simple './gradlew test' will run all the tests and generate the test report in $ProjectFolder/test-output/citrus-reports
 
 ### Improvement ###
 
