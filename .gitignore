@@ -13,6 +13,5 @@ hs_err_pid*
 /build/
 /.gradle/
 /.idea/
-/gradle/
 /target/
 /test-output/
