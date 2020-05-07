@@ -4,7 +4,7 @@ This repository was created by Vihar Naik for technical test purpose only.
 
 ### What Framework was used? ###
 
-* These tests are created with Citrus Framework with gradle build tool. Request, Response payloads are logged along with detailed count.  
+* These tests are created with Citrus Framework with gradle build tool. Request & Response payloads are logged along with detailed count in the console.
 
 ### How to run tests? ###
 
