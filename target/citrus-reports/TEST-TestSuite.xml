@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.0" tests="3" errors="0" skipped="0" failures="0">
-    <testcase name="Verify &apos;KIA&apos; brand exists and return the current number of Kia cars listed" classname="flux.federation.api.APITest" time="0.0"/>
-    <testcase name="Find How many named brands of used cars are available in the TradeMe UsedCar Category" classname="flux.federation.api.APITest" time="0.0"/>
-    <testcase name="Verify Hispano Suiza does not exist in the TradeMe UsedCards Category" classname="flux.federation.api.APITest" time="0.0"/>
-</testsuite>
